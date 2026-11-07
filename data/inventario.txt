@@ -1,8 +1,23 @@
-LAC001|Leche entera 1L|Lacteos|4200.0|33|10|Alqueria
-BEB003|Gaseosa 1.5L|Bebidas|5800.0|6|12|Postobon
+LAC001|Leche entera 1L|Lacteos|4200.0|35|10|Alqueria
+BEB003|Gaseosa 1.5L|Bebidas|5800.0|8|12|Postobon
 ASE002|Detergente 500g|Aseo|7500.0|20|5|Distribuidora Norte
-PRUEBA1|Leche de prueba|Bebidas|3000.0|3|2|Dannmilk
-DESCO1|Prueba Producto 1|Pruebas|2500.0|7|2|YO
-DESCO2|Producto Prueba 2|Pruebas|50000.0|9|2|YO
-DESCO3|Producto Prueba 3|Pruebas|100000.0|9|2|YO
-MM|PRODUCTO|DUDA|2000.0|0|5|YO
+BEB001|Coca-Cola 1.5 L|Bebidas|6500.0|15|5|Coca-Cola
+BEB002|Agua Cristal 600 ml|Bebidas|2000.0|20|8|Postobón
+BEB033|Gaseosa Postobón 1.5 L|Bebidas|5500.0|6|12|Postobón
+BEB004|Jugo Hit 500 ml|Bebidas|3000.0|18|6|Postobón
+LAC011|Leche Colanta 1 L|Lácteos|4500.0|12|5|Colanta
+LAC002|Yogur Alpina 1 L|Lácteos|9000.0|4|8|Alpina
+LAC003|Queso campesino 250 g|Lácteos|8500.0|10|4|Colanta
+GRA001|Arroz Diana 1 kg|Granos|4500.0|25|10|Diana
+GRA002|Lentejas 500 g|Granos|4000.0|15|5|Distribuidora Central
+GRA003|Frijol 500 g|Granos|5500.0|3|8|Distribuidora Central
+ASE001|Aceite Premier 1 L|Aseo y hogar|9500.0|10|4|Familia
+ASE022|Detergente Fab 500 g|Aseo y hogar|6000.0|12|5|Familia
+ASE003|Jabon Rey|Aseo y hogar|2500.0|20|6|Dersa
+DUL001|Chocolatina Jet|Dulces|1500.0|30|10|Nacional de Chocolates
+DUL002|Galletas Festival|Dulces|1800.0|25|10|Colombina
+DUL003|Papas Margarita|Pasabocas|3000.0|8|12|PepsiCo
+PAN001|Pan tajado Bimbo|Panadería|7500.0|7|5|Bimbo
+ENL001|Huevos (cubeta x 12)|Enlatados y otros|10000.0|10|4|Distribuidora Central
+ENL002|Atun Van Camps|Enlatados y otros|7500.0|5|8|Van Camps
+CAF001|Cafe Aguila Roja 250 g|Despensa|9000.0|12|5|Aguila Roja
