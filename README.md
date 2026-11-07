@@ -1,73 +1,108 @@
-TiendaPy – Tienda Don Aurelio
+# TiendaPy – Tienda Don Aurelio
 
-Descripción
+**Sistema de gestión de inventario y ventas desarrollado en Python.**
+
+## 1\. Descripción
 
 TiendaPy es una aplicación de consola desarrollada en Python para gestionar el inventario, registrar ventas, controlar existencias y generar reportes diarios de una tienda de barrio.
 
-Objetivo
+## 2\. Objetivo
 
 Facilitar la administración de productos y ventas, reducir errores de cálculo y conservar la información mediante archivos de texto plano.
 
-Requisitos
+## 3\. Funcionalidades
+
+- Registro de productos.
+- Consulta de productos por código y categoría.
+- Modificación de precios y existencias.
+- Eliminación de productos.
+- Registro de ventas con varios productos.
+- Aplicación automática de descuentos.
+- Cálculo del pago y cambio.
+- Validación de existencias disponibles.
+- Alertas de stock mínimo y productos agotados.
+- Cierre diario de ventas.
+- Almacenamiento persistente del inventario y del historial de ventas.
+
+## 4\. Tecnologías utilizadas
+
+- Python 3.10 o superior.
+- Archivos de texto plano.
+- Git y GitHub para el control de versiones.
+
+## 5\. Requisitos
 
 - Python 3.10 o superior.
 - Visual Studio Code o cualquier editor de código.
-- No requiere dependencias externas.
+- No requiere bibliotecas externas.
 
-Funcionalidades
+## 6\. Estructura del proyecto
 
-1. Registro de productos.
-2. Consulta por código y categoría.
-3. Modificación de precios y stock.
-4. Eliminación de productos.
-5. Registro de ventas con varios productos.
-6. Aplicación de descuentos del 5 % y 10 %.
-7. Cálculo de pago y cambio.
-8. Validación de existencias.
-9. Alertas de stock bajo y productos agotados.
-10. Cierre diario de ventas.
-11. Persistencia de inventario e historial de ventas.
+``` text
+TiendaPy/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── data/
+│   ├── inventario.txt
+│   └── ventas.txt
+│
+└── src/
+    ├── main.py
+    ├── inventario.py
+    ├── ventas.py
+    ├── reportes.py
+    ├── persistencia.py
+    └── validaciones.py
+```
 
-Estructura del proyecto
+## 7\. Instalación y ejecución
 
-- "src/main.py": menú principal.
-- "src/inventario.py": gestión de productos.
-- "src/ventas.py": registro de ventas y descuentos.
-- "src/reportes.py": alertas y cierre diario.
-- "src/persistencia.py": lectura y escritura de archivos.
-- "src/validaciones.py": validación de datos.
-- "data/inventario.txt": información de productos.
-- "data/ventas.txt": historial de ventas.
+Para ejecutar el programa:
 
-Ejecución
+1. Descargar o clonar el repositorio.
+2. Abrir la carpeta principal del proyecto.
+3. Abrir una terminal desde esa ubicación.
+4. Ejecutar el siguiente comando:
 
-Desde la carpeta principal ejecutar:
-
+``` bash
 python src/main.py
+```
 
-En Windows también se puede ejecutar:
+En Windows también se puede utilizar:
 
+``` bash
 py src/main.py
+```
 
-Persistencia
+## 8\. Sistema de descuentos
 
-La información del inventario se almacena en "data/inventario.txt" y las ventas se guardan en "data/ventas.txt".
+El programa aplica los siguientes descuentos según el subtotal de la compra:
+
+| Valor de compra | Descuento |
+| --- | ---: |
+| Desde $50.000 COP | 5 % |
+| Desde $100.000 COP | 10 % |
+
+## 9\. Persistencia de datos
+
+La información se almacena en archivos de texto dentro de la carpeta `data`:
+
+- `inventario.txt`: almacena los productos y sus existencias.
+- `ventas.txt`: conserva el historial de ventas realizadas.
 
 Los datos permanecen disponibles al cerrar y volver a ejecutar el programa.
 
-Descuentos
+## 10\. Autora
 
-- Compras desde $50.000 COP: 5 %.
-- Compras desde $100.000 COP: 10 %.
+**Francy Daniela Quintero Bravo**
 
-Uso del sistema
+Código estudiantil: 20262020143
 
-Al ejecutar el programa, se mostrará un menú principal con las opciones disponibles.
+Proyecto desarrollado para el curso **Python 0 a 100 – Curso ACM**.
 
-El usuario podrá registrar, consultar, modificar y eliminar productos, registrar ventas, consultar alertas de inventario y generar el cierre diario.
+---
 
-La información se almacena automáticamente en archivos de texto plano dentro de la carpeta data.
-
-Autores
-Francy Daniela Quintero Bravo - 20262020143
-Proyecto desarrollado para el curso Python 0 a 100 – Curso ACM.
+**Proyecto académico – TiendaPy | Tienda Don Aurelio**
