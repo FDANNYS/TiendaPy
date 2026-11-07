@@ -1,0 +1,8 @@
+LAC001|Leche entera 1L|Lacteos|4200.0|33|10|Alqueria
+BEB003|Gaseosa 1.5L|Bebidas|5800.0|6|12|Postobon
+ASE002|Detergente 500g|Aseo|7500.0|20|5|Distribuidora Norte
+PRUEBA1|Leche de prueba|Bebidas|3000.0|3|2|Dannmilk
+DESCO1|Prueba Producto 1|Pruebas|2500.0|7|2|YO
+DESCO2|Producto Prueba 2|Pruebas|50000.0|9|2|YO
+DESCO3|Producto Prueba 3|Pruebas|100000.0|9|2|YO
+MM|PRODUCTO|DUDA|2000.0|0|5|YO
